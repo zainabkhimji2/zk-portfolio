@@ -7,13 +7,8 @@ import { Points,PointMaterial } from "@react-three/drei"
 import * as random from "maath/random/dist/maath-random.esm"
 
 
-
-
-
-import { FC } from "react";
-
 interface StarbgProps {
-    [key: string]: any;
+    [key: string]: string | number | boolean | undefined;
 }
 
 interface SphereState {
